@@ -18,13 +18,13 @@ public class RentMyCarApplication {
 	@Bean
 	public CommandLineRunner demo(PersonRepository personRepository,DatesRepository datesRepository) {
 		return (args) -> {
-			Person tintin = new Person();
-			tintin.setAge(20);
-			tintin.setNom("Soumeya");
+			Person soumeya = new Person();
+			soumeya.setAge(20);
+			soumeya.setNom("Soumeya");
 			
-			Person kamy = new Person();
-			kamy.setAge(23);
-			kamy.setNom("Ines");
+			Person ines = new Person();
+			ines.setAge(23);
+			ines.setNom("Ines");
 			
 			 String pattern = "yyyy-MM-dd";
 		     SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
@@ -57,16 +57,16 @@ public class RentMyCarApplication {
 			car_1.setPrice(23400);
 			car_1.setnumberOfSeats(4);
 			
-			kamy.addDates(date);
-			tintin.addDates(date_2);
+			ines.addDates(date);
+			soumeya.addDates(date_2);
 		 
 			
 			van_1.setDates(date_2);
 			car_1.setDates(date);
 			
 		
-			date.setPerson(kamy);
-			date_2.setPerson(tintin);
+			date.setPerson(ines);
+			date_2.setPerson(soumeya);
 			
 			date_2.setVehicule(van_1);
 			
