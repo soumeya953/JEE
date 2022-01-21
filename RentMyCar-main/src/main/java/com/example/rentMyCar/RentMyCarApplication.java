@@ -20,11 +20,11 @@ public class RentMyCarApplication {
 		return (args) -> {
 			Person tintin = new Person();
 			tintin.setAge(20);
-			tintin.setNom("Tintin");
+			tintin.setNom("Soumeya");
 			
 			Person kamy = new Person();
 			kamy.setAge(23);
-			kamy.setNom("Kamy");
+			kamy.setNom("Ines");
 			
 			 String pattern = "yyyy-MM-dd";
 		     SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
