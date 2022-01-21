@@ -73,7 +73,7 @@ public class RentMyCarApplication {
 			date.setVehicule(car_1);
 		
 			datesRepository.save(date);
-			datesRepository.save(date_2);
+			datesRepository.save(date_2);			
 
 		};
 	}

@@ -10,9 +10,8 @@ import javax.persistence.OneToMany;
 
 @Entity
 public class Person {
-
-    String nom;
-    int age;
+	String nom;
+	int age;
     Collection<Dates> dates=new ArrayList<Dates>();
 
     

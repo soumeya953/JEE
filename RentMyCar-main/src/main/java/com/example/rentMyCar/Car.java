@@ -22,6 +22,7 @@ public class Car extends Vehicule {
 		
 	}
 	
+	
 	public int getnumberOfSeats() {
 		return this.numberOfSeats;
 	}

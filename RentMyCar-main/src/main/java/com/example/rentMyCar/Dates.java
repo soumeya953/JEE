@@ -22,9 +22,6 @@ public class Dates {
     Date end;
     Vehicule vehicule;
     Person person;
-    
-   
-    
 	
     
     @OneToOne(cascade=CascadeType.ALL)
